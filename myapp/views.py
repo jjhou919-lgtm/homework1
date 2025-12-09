@@ -5,4 +5,4 @@ def test(request):
     return HttpResponse("This is a test view.")
 
 def bweb(request):
-    return HttpResponse("This is the bweb view.")
+    return HttpResponse("This is the bweb view!!!!!!!!!!")
