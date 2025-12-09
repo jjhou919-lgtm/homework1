@@ -5,4 +5,4 @@ def test(request):
     return HttpResponse("This is a test view.")
 
 def aweb(request):
-    return render(request, 'aweb.html')
+    return HttpResponse("This is the aweb view.")
